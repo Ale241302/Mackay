@@ -1,0 +1,202 @@
+.gradient-custom-2 {
+  background: #ffffff; /* Cambia el fondo a blanco */
+}
+
+
+.custom-toggle-password {
+  height: 100%; /* Ajusta la altura al 100% del contenedor */
+  font-size: 1.2rem; /* Ajusta el tamaño del icono según sea necesario */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.permission-checkbox {
+  margin-right: 10px; /* Espacio a la derecha del checkbox */
+}
+
+.form-check-label {
+  margin-left: 5px; /* Espacio a la izquierda de la etiqueta del checkbox */
+}
+#forgotPasswordModal3 {
+  margin: auto; /* Add this to center the modal horizontally */
+  top: 68%; /* Add this to center the modal vertically */
+  transform: translateY(-50%); /* Add this to center the modal vertically */
+  position: absolute;
+  right: 75px;
+}
+.logo-container {
+  position: relative;
+  top: 100px;
+  z-index: 2; /* Asegura que el logo esté por encima del barco */
+}
+
+.img-logo {
+  width: 300px;
+  height: auto;
+  margin-left: -50px;
+}
+
+.image-container {
+  position: relative;
+  margin-top: -65px; /* Ajusta el margin-top si necesitas mover el barco hacia arriba */
+  z-index: 1; /* Asegura que el barco esté debajo del logo */
+}
+
+.img-barco {
+  width: 555px;
+  height: 56  5px;
+}
+
+@media (min-width: 768px) {
+  .gradient-form {
+      height: 100vh !important;
+  }
+}
+
+@media (max-width: 1399px) {
+  .gradient-custom-2 {
+      border-top-right-radius: .3rem;
+      border-bottom-right-radius: .3rem;
+  }
+  .img-barco {
+    width: 500px;
+    height: 80  5px;
+  }
+  .permission-checkbox {
+    margin-right: 10px; /* Espacio a la derecha del checkbox */
+  }
+  
+  .form-check-label {
+    margin-left: 5px; /* Espacio a la izquierda de la etiqueta del checkbox */
+  }
+  #forgotPasswordModal3 {
+    margin: auto; /* Add this to center the modal horizontally */
+  top: 73%; /* Add this to center the modal vertically */
+  transform: translateY(-50%); /* Add this to center the modal vertically */
+  position: absolute;
+  right: 75px;
+  }
+  .logo-container {
+    position: relative;
+    top: 100px;
+    z-index: 2; /* Asegura que el logo esté por encima del barco */
+  }
+  
+  .img-logo {
+    width: 300px;
+    height: auto;
+    margin-left: -50px;
+  }
+  
+  .image-container {
+    position: relative;
+    margin-top: -65px; /* Ajusta el margin-top si necesitas mover el barco hacia arriba */
+    z-index: 1; /* Asegura que el barco esté debajo del logo */
+  }
+}
+@media (max-width: 991px) {
+  .gradient-custom-2 {
+    border-top-right-radius: .3rem;
+    border-bottom-right-radius: .3rem;
+  }
+
+  .img-barco {
+    width: 370px;
+    height: 600px;
+  }
+  .img-logo {
+    width: 300px;
+    height: auto;
+    margin-left: -50px;
+  }
+  
+
+  .logo-container {
+    top: 0;
+    z-index: 2; /* Asegura que el logo esté por encima del barco */
+    text-align: center;
+    margin-bottom: -40px; /* Añade espacio debajo del logo */
+  }
+
+  .image-container {
+    display: flex;
+    position: relative;
+    margin-top: -65px; /* Ajusta el margin-top si necesitas mover el barco hacia arriba */
+    z-index: 1; /* Asegura que el barco esté debajo del logo */
+  }
+
+  .card-body{
+    display: flex;
+      position: relative;
+      margin-top: -630px; /* Ajusta el margin-top si necesitas mover el barco hacia arriba */
+      z-index: 1;
+      left: 330px;
+  }
+  .col-lg-6 {
+    order: 2; /* Hace que el texto esté al lado de la imagen */
+  }
+
+  .image-container {
+    order: 1; /* Hace que la imagen esté al lado del texto */
+  }
+  #forgotPasswordModal3 {
+    margin: auto; /* Add this to center the modal horizontally */
+  top: 71%; /* Add this to center the modal vertically */
+  transform: translateY(-50%); /* Add this to center the modal vertically */
+  position: absolute;
+  right: 345px;
+  }
+}
+@media (max-width: 767px) {
+  .gradient-custom-2 {
+    border-top-right-radius: .3rem;
+    border-bottom-right-radius: .3rem;
+  }
+  .img-logo {
+    width: 200px;
+    height: auto;
+    margin-left: -50px;
+  }
+
+  .img-barco {
+    width: 250px;
+    height: 550px;
+  }
+
+  .logo-container {
+    top: 0;
+    z-index: 2; /* Asegura que el logo esté por encima del barco */
+    text-align: center;
+    margin-bottom: -70px; /* Añade espacio debajo del logo */
+  }
+
+  .image-container {
+    display: flex;
+    position: relative;
+    margin-top: -25px; /* Ajusta el margin-top si necesitas mover el barco hacia arriba */
+    z-index: 1; /* Asegura que el barco esté debajo del logo */
+  }
+
+  .card-body{
+    display: flex;
+      position: relative;
+      margin-top: -580px; /* Ajusta el margin-top si necesitas mover el barco hacia arriba */
+      z-index: 1;
+      left: 240px;
+  }
+  .col-lg-6 {
+    order: 2; /* Hace que el texto esté al lado de la imagen */
+  }
+
+  .image-container {
+    order: 1; /* Hace que la imagen esté al lado del texto */
+  }
+  #forgotPasswordModal3 {
+    margin: auto; /* Add this to center the modal horizontally */
+  top: 73%; /* Add this to center the modal vertically */
+  transform: translateY(-50%); /* Add this to center the modal vertically */
+  position: absolute;
+  right: 245px;
+  }
+}

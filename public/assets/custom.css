@@ -1,0 +1,7 @@
+/* custom.css */
+.form-control {
+    border-radius: 0.25rem;
+}
+.custom-toggle-password {
+    cursor: pointer;
+}

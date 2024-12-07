@@ -1,0 +1,294 @@
+.gradient-custom-2 {
+    /* fallback for old browsers */
+    background: #fccb90;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+    }
+    
+    @media (min-width: 768px) {
+    .gradient-form {
+    height: 100vh !important;
+    }
+    }
+    @media (min-width: 769px) {
+    .gradient-custom-2 {
+    border-top-right-radius: .3rem;
+    border-bottom-right-radius: .3rem;
+    }
+    }
+   
+      .custom-toggle-password {
+        height: 100%; /* Ajusta la altura al 100% del contenedor */
+        font-size: 1.2rem; /* Ajusta el tamaño del icono según sea necesario */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .permission-checkbox {
+      margin-right: 10px; /* Espacio a la derecha del checkbox */
+  }
+  
+  .form-check-label {
+      margin-left: 5px; /* Espacio a la izquierda de la etiqueta del checkbox */
+  }
+  /*Estilos navbar*/
+  body {
+    display: flex !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.sidebar {
+    height: 100vh !important;
+    width: 250px !important;
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    background-color: #f8f9fa !important;
+    padding-top: 20px !important;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1) !important;
+    overflow-y: auto !important;
+}
+
+.sidebar .nav-link {
+    padding: 10px 15px !important;
+    color: #333 !important;
+    display: block !important;
+}
+
+.sidebar .nav-link:hover {
+    background-color: #e9ecef !important; /* Color de fondo cuando se pasa el cursor por encima */
+    color: blue !important; /* Color de texto cuando se pasa el cursor por encima */
+}
+
+.sidebar .nav-link.active {
+    background-color: #e9ecef !important; /* Color de fondo para el enlace activo */
+    color: blue !important; /* Color de texto para el enlace activo */
+    font-weight: bold !important; /* Asegura que el enlace activo se destaque */
+}
+
+.sidebar .collapse {
+    padding-left: 15px !important;
+}
+
+.sidebar .nav-item .collapse .nav-link {
+    padding-left: 30px !important;
+}
+
+.content {
+    margin-left: 250px !important;
+    padding: 20px !important;
+    flex: 1 !important;
+}
+
+.nav-item .fa-cogs {
+    margin-right: 8px !important;
+}
+
+.sidebar.nav-item.nav-link.active {
+    background-color: #e9ecef !important;
+}
+
+#configMenu {
+    list-style-type: none !important; /* Elimina los puntos de la lista */
+    padding: 0 !important; /* Elimina el padding del ul */
+    margin: 0 !important; /* Elimina el margin del ul */
+}
+
+/* Asegura que cada elemento de la lista se muestre en una nueva línea */
+#configMenu .nav-item {
+    display: block !important; /* Asegura que cada li se muestre como un bloque */
+    margin-bottom: 10px !important; /* Añade espacio entre los elementos (opcional) */
+}
+
+/* Asegura que los enlaces se comporten como bloques */
+#configMenu .nav-link {
+    display: block !important; /* Asegura que cada enlace se muestre como un bloque */
+}
+
+.hidden {
+    display: none !important;
+}
+
+.nav-link {
+    display: flex !important;
+    align-items: center !important; /* Alinea verticalmente el ícono y el texto */
+}
+
+.nav-link i {
+    margin-right: 15px !important; /* Ajusta el valor para definir el espacio deseado */
+}
+
+.profile-dropdown {
+    position: absolute !important; /* Posiciona el contenedor en relación a su contenedor padre */
+    top: 0 !important; /* Ajusta el valor según sea necesario */
+    right: 0 !important; /* Ajusta el valor según sea necesario */
+    margin: 10px !important; /* Opcional: añade margen para separar del borde */
+}
+
+.profile-dropdown .dropdown-menu {
+    right: 0 !important; /* Alinea el menú desplegable con el borde derecho del contenedor */
+    left: auto !important; /* Asegura que el menú no se desplace a la izquierda */
+}
+
+.toggle-icon {
+    transition: transform 0.3s ease !important;
+    display: inline-block !important;
+    margin-left: 10px !important;
+}
+
+.toggle-icon.rotate {
+    transform: rotate(180deg) !important;
+}
+.modal-backdrop {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    /* Ajusta el valor de opacidad aquí */
+}
+
+/* Opcional: Ajusta la opacidad del contenido del modal si es necesario */
+/* Ajuste de opacidad del modal */
+.modal-content {
+    background-color: #ffffff; /* Cambiado a blanco sólido */
+}
+
+.select2-container--default .select2-selection--multiple {
+    min-height: 38px;
+    /* Altura mínima de un campo select */
+    border: 1px solid #ced4da;
+    /* Estilo del borde */
+    border-radius: 0.25rem;
+    /* Borde redondeado */
+    padding: 0.375rem 0.75rem;
+    /* Espaciado */
+    width: 420px !important;
+    /* Ancho del select */
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+    display: flex; /* Alineación de contenido en un contenedor flex */
+    align-items: center; /* Alineación centrada verticalmente */
+    padding-right: 5px; /* Espacio entre el texto y la "X" */
+    overflow: hidden; /* Evitar que el texto desborde */
+    white-space: nowrap; /* Evitar que el texto se divida en varias líneas */
+    text-overflow: ellipsis; /* Mostrar puntos suspensivos si el texto es demasiado largo */
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
+    margin-right: 5px; /* Espacio entre la "X" y el borde */
+    cursor: pointer; /* Cambiar el cursor a pointer */
+    display: flex; /* Alineación de contenido en un contenedor flex */
+    align-items: center; /* Alineación centrada verticalmente */
+}
+
+.tag {
+    display: flex;
+    align-items: center;
+    background-color: #d3d3d3;
+    border-radius: 12px;
+    padding: 5px 10px;
+    margin: 5px;
+}
+.tag2 {
+    display: flex;
+    align-items: center;
+    background-color: #d3d3d3;
+    border-radius: 12px;
+    padding: 5px 10px;
+    margin: 5px;
+}
+
+.tag .remove-tag {
+    cursor: pointer;
+    margin-left: 8px;
+    font-weight: bold;
+}
+.tag2 .remove-tag2 {
+    cursor: pointer;
+    margin-left: 8px;
+    font-weight: bold;
+}
+
+.tag-input {
+    min-width: 100px;
+}
+.tag-input2 {
+    min-width: 100px;
+}
+/* Estilos para el contenedor con scroll */
+.tabla-contenedor {
+    max-height: 300px; /* Altura máxima del contenedor */
+    overflow-y: auto; /* Scroll vertical */
+    border: 1px solid #ddd; /* Borde opcional */
+    margin-top: 20px; /* Margen superior opcional */
+}
+
+/* Estilos opcionales para la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+.custom-label {
+    font-size: 18px; /* Tamaño de fuente más grande */
+    font-weight: bold; /* Texto en negrita */
+    padding: 10px 20px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    display: inline-block; /* Para que el tamaño del badge respete el espaciado */
+}
+
+@media (max-width: 1578px) {
+    .select2-container--default .select2-selection--multiple {
+        min-height: 38px;
+        /* Altura mínima de un campo select */
+        border: 1px solid #ced4da;
+        /* Estilo del borde */
+        border-radius: 0.25rem;
+        /* Borde redondeado */
+        padding: 0.375rem 0.75rem;
+        /* Espaciado */
+        width: 360px !important;
+        /* Ancho del select */
+    }
+  }
+  @media (max-width: 1456px) {
+    .select2-container--default .select2-selection--multiple {
+        min-height: 38px;
+        /* Altura mínima de un campo select */
+        border: 1px solid #ced4da;
+        /* Estilo del borde */
+        border-radius: 0.25rem;
+        /* Borde redondeado */
+        padding: 0.375rem 0.75rem;
+        /* Espaciado */
+        width: 330px !important;
+        /* Ancho del select */
+    }
+  }
+@media (max-width: 768px) {
+    .select2-container--default .select2-selection--multiple {
+        min-height: 38px;
+        /* Altura mínima de un campo select */
+        border: 1px solid #ced4da;
+        /* Estilo del borde */
+        border-radius: 0.25rem;
+        /* Borde redondeado */
+        padding: 0.375rem 0.75rem;
+        /* Espaciado */
+        width: 200px !important;
+        /* Ancho del select */
+    }
+  }
+  
